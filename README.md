@@ -1,8 +1,8 @@
 # 30-day-js-challege-by-chai-code-
 
-> ##Day 1: Variables and Data Types
+> ##  Day 1: Variables and Data Types
 
-##Tasks/Activities:
+## Tasks/Activities:
 
 **Activity 1: Variable Declaration**
 **Task 1:** Declare a variable using var, assign it a number, and log the value to the console.
@@ -20,7 +20,7 @@
 **Activity 5:** Understanding const
 **Task 6:** Try reassigning a variable declared with const and observe the error.
 
->##Feature Request:
+>## Feature Request:
 >
 >1. Variable Types Console Log: Write a script that declares variables of different data types and logs both the value and type of each variable to the console. 
 >2. Reassignment Demo: Create a script that demonstrates the difference in behavior between Let and const when it comes to reassignment.

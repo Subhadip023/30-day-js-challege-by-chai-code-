@@ -103,3 +103,74 @@
 **Task 6:** Write a program to calculate the factorial of a number using a do...while loop.
 **Activity 4:** Nested Loops
 **Task 7:** Write a program to print a pattern using nested for loops:
+
+
+ ## Day 5: Functions
+
+### **  Tasks/Activities:**
+
+
+**Activity 1:** Function Declaration
+
+**Task 1:** Write a function to check if a number is even or odd and log the result to the console.
+
+**Task 2:** Write a function to calculate the square of a number and return the result.
+
+**Activity 2:** Function Expression
+
+**Task 3:** Write a function expression to find the maximum of two numbers and log the result to the console.
+
+**Task 4:** Write a function expression to concatenate two strings and return the result.
+
+**Activity 3:** Arrow Functions
+
+**Task 5:** Write an arrow function to calculate the sum of two numbers and return the result.
+
+**Task 6:** Write an arrow function to check if a string contains a specific character and return a boolean value.
+
+**Activity 4:** Function Parameters and Default Values
+
+**Task 7:** Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
+
+**Task 8:** Write a function that takes a person's name and age and returns a greeting message. Provide a default value for the age.
+
+**Activity 5:** Higher-Order Functions
+
+**Task 9:** Write a higher-order function that takes a function and a number, and calls the function that many times. Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+
+
+> ### Feature Request:
+> 1. Even or Odd Function Script: Write a script that includes a function to check if a number is even or odd and logs the result.
+> 2. Square Calculation Function Script: Create a script that includes a function to calculate the square of a number and returns the result.
+> 3. Concatenation Function Script: Write a script that includes a function expression to concatenate two strings and returns the result.
+> 4. Sum Calculation Arrow Function Script: Create a script that includes an arrow function to calculate the sum of two numbers and returns the result.
+> 5. Higher-Order Function Script: Write a script that includes a higher-order function to apply a given function multiple times.
+
+
+## Day 6: Arrays
+### Tasks/Activities:
+**Activity 1:** Array Creation and Access
+**Task 1:** Create an array of numbers from 1 to 5 and log the array to the console. Task 2: Access the first and last elements of the array and log them to the console.
+**Activity 2:** Array Methods (Basic)
+**Task 3:** Use the push method to add a new number to the end of the array and log the updated array. Task 4: Use the pop method to remove the last element from the array and log the updated array.
+**Task 5:** Use the shift method to remove the first element from the array and log the updated array.
+**Task 6:** Use the unshift method to add a new number to the beginning of the array and log the updated array.
+**Activity 3:** Array Methods (Intermediate)
+**Task 7:** Use the map method to create a new array where each number is doubled and log the new array.
+**Task 8:** Use the filter method to create a new array with only even numbers and log the new array.
+**Task 9:** Use the reduce method to calculate the sum of all numbers in the array and log the result.
+**Activity 4:** Array Iteration
+**Task 10:** Use a for loop to iterate over the array and log each element to the console.
+**Task 11:** Use the forEach method to iterate over the array and log each element to the console.
+**Activity 5:** Multi-dimensional Arrays
+**Task 12:** Create a two-dimensional array (matrix) and log the entire array to the console.
+**Task 13:** Access and log a specific element from the two-dimensional array.
+
+
+> ### Feature Request:
+    > 1. Array Manipulation Script: Write a script that demonstrates the creation of an array, adding and removing elements using push, pop, shift, and unshift methods.
+    > 2. Array Transformation Script: Create a script that uses map, filter, and reduce methods to transform and aggregate array data.
+    > 3. Array Iteration Script: Write a script that iterates over an array using both for loop and forEach method and logs each element.
+    > 4. Two-dimensional Array Script: Create a script that demonstrates the creation and manipulation of a two-dimensional array.
+
+

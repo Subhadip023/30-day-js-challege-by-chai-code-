@@ -58,20 +58,3 @@
 
 // Activity 5: Module Bundling (Optional)
 // Task 8: Use a module bundler like Webpack or Parcel to bundle multiple JavaScript files into a single file. Write a script to demonstrate the bundling process.
-
-
-// Feature Request:
-// 1. Basic Module Script: Write a script that creates a module exporting a function and imports it in another script.
-
-
-import { add } from "./exportModuls.js";
-console.log(add(30,40))
-
-
-
-// 2. Named and Default Exports Script: Create a script demonstrating both named and default exports and their usage. 
-
-
-
-//3. Third-Party Module Script: Write a script that installs, imports,
-// and uses functions from third-party modules like lodash and axios. 4. Module Bundling Script: Create a script demonstrating how to bundle JavaScript files using a module bundler (optional).

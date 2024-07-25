@@ -202,7 +202,7 @@ function basicErrorHandling() {
     }
 }
 
-basicErrorHandling(\);
+basicErrorHandling();
 
 
 // 2.Custom Error Script: Create a script that defines and throws custom errors, handling them with try-catch blocks.

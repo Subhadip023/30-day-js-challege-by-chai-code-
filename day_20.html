@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 20</title>
+    <style>
+body{
+    background-color: #1f1f1f;
+    color: #c7c2c2;
+}
+
+#output{
+    color: aqua;
+}
+#sessionOutput{
+    color: cadetblue;
+}
+    </style>
+</head>
+<body>
+    <h1>Day 20: LocalStorage and SessionStorage</h1>
+
+<h2>Activity 1: Understanding LocalStorage</h2>    
+    <h3>Task 1: Write a script to save a string value to localStorage and retrieve it. Log the retrieved value.</h3>
+    <h3>Task 2: Write a script to save an object to localStorage by converting it to a JSON string. Retrieve and parse the object, then log it.</h3>
+
+
+   <h2>Activity 2: Using LocalStorage</h2>
+        <h3> // Task 3: Create a simple form that saves user input (e.g., name and email) to localStorage when submitted. Retrieve and display the saved data on page load.</h3>
+<br>
+        <form action="" id="myForm">
+            <input type="text" name="name" id="name" placeholder="Enter Your name"><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+            <button type="submit">Submit</button>
+        </form>
+
+<br>
+
+<h3>Show Data From Form is here</h3>
+
+<div id="output">
+
+</div>
+
+     <h3>
+        Task 4: Write a script to remove an item from localStorage. Log the localStorage content before and after removal.
+    </h3> <button onclick="removeLocalStorage()" type="button">Remove Local Storage</button>
+<br>
+<br>
+<h3>sesion data form </h3>
+    <form id="sessionForm" action="">
+        <input type="text" id="name-session" placeholder="Enter name"><br>
+        <input type="email" id="email-session" placeholder="Enter email">
+        <br>
+        <br>
+
+<button type="submit">Submit Data</button>
+
+    </form>
+
+    <h3>Output of session Form</h3>
+    <div id="sessionOutput">
+        Output of the session form here 
+    </div>
+<button onclick="removeSessionData()" type="button">Remove Session data</button>
+
+</body>
+<script src="./day_20.js"></script>
+
+</html>

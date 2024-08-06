@@ -1,0 +1,42 @@
+{
+  "page": 1,
+  "next": null,
+  "entries": 1,
+  "results": [
+    {
+      "_id": "61e5a11cd735dff3f949030f",
+      "id": "tt1375666",
+      "primaryImage": {
+        "id": "rm3426651392",
+        "width": 700,
+        "height": 1037,
+        "url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+        "caption": {
+          "plainText": "Leonardo DiCaprio, Tom Berenger, Michael Caine, Lukas Haas, Marion Cotillard, Joseph Gordon-Levitt, Tom Hardy, Elliot Page, Ken Watanabe, and Dileep Rao in Inception (2010)",
+          "__typename": "Markdown"
+        },
+        "__typename": "Image"
+      },
+      "titleType": {
+        "text": "Movie",
+        "id": "movie",
+        "isSeries": false,
+        "isEpisode": false,
+        "__typename": "TitleType"
+      },
+      "titleText": { "text": "Inception", "__typename": "TitleText" },
+      "originalTitleText": { "text": "Inception", "__typename": "TitleText" },
+      "releaseYear": {
+        "year": 2010,
+        "endYear": null,
+        "__typename": "YearRange"
+      },
+      "releaseDate": {
+        "day": 16,
+        "month": 7,
+        "year": 2010,
+        "__typename": "ReleaseDate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+/* styles.css */
+:root {
+  --color1: #1B262C;
+  --color2: #0F4C75;
+  --color3: #3282B8;
+  --color4: #BBE1FA;
+  --color5: #00BF63;
+  --color6: #FF5757;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color4);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+.navbar {
+  background-color: var(--color2);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color3);
+}
+
+.navbar h1 {
+  margin: 0;
+  color: var(--color4);
+}
+
+.username {
+  color: var(--color4);
+  font-weight: bold;
+}
+
+.btn {
+  background-color: var(--color3);
+  color: var(--color4);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color5);
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  background-color: var(--color1);
+  border-top: 1px solid var(--color3);
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: var(--color2);
+  border-radius: 5px;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#messages li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#messages .align-left {
+  justify-content: flex-start;
+}
+
+#messages .align-right {
+  justify-content: flex-end;
+}
+
+#messages p {
+  margin: 0 5px;
+  padding: 0.5rem;
+  background-color: var(--color5);
+  border-radius: 5px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+.message-username-left {
+  color: var(--color5);
+  margin-right: 0.5rem;
+}
+
+.message-username-right {
+  color: var(--color6);
+  margin-left: 0.5rem;
+}
+
+.input {
+  margin-top: 1rem;
+}
+
+#message_input {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid var(--color3);
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+button.btn {
+  margin-left: 1rem;
+}
